@@ -137,47 +137,46 @@ if($ref){
  	["customerEmail"]=> string() 
  	["paymentDescription"]=> string() 
  	["paymentStatus"]=> string() "PAID" 
- 	["transactionReference"]=> string(29) "MNFY|04|20211208110651|001547" 
- 	["paymentReference"]=> string(13) "Sim1638958072" 
- 	["payableAmount"]=> float(8500) 
- 	["amountPaid"]=> float(8500) 
+ 	["transactionReference"]=> string(29) "MNFY|04|20211208110651|001547"
+ 	["paymentReference"]=> string(13) "Sim1638958072"
+ 	["payableAmount"]=> float(8500)
+ 	["amountPaid"]=> float(8500)
  	["completed"] => bool()
 
  	//sample verify transaction current response body
 
- 	["transactionReference"]=> string() 
-    ["paymentReference"]=> string()
-    ["amountPaid"]=> string() "8500.00" 
-    ["totalPayable"]=> string() "8500.00" 
-    ["settlementAmount"]=> string() "8490.00" 
-    ["paidOn"]=> string() "08/12/2021 11:07:22 AM" 
-    ["paymentStatus"]=> string() "PAID" 
-    ["paymentDescription"]=> string() 
-    ["currency"]=> string() "NGN" 
-    ["paymentMethod"]=> string() "CARD" 
+  	 ["transactionReference"]=> string()
+ 	 ["paymentReference"]=> string()
+ 	 ["amountPaid"]=> string() "8500.00"
+    ["totalPayable"]=> string() "8500.00"
+    ["settlementAmount"]=> string() "8490.00"
+    ["paidOn"]=> string() "08/12/2021 11:07:22 AM"
+    ["paymentStatus"]=> string() "PAID"
+    ["paymentDescription"]=> string()
+    ["currency"]=> string() "NGN"
+    ["paymentMethod"]=> string() "CARD"
     ["product"]=> array(2) { 
-       ["type"]=> string(7) "WEB_SDK" 
-       ["reference"]=> string(13) "Sim1638958072" 
+       ["type"]=> string(7) "WEB_SDK"
+       ["reference"]=> string(13) "Sim1638958072"
     } 
     ["cardDetails"]=> array() { 
-       ["cardType"]=> NULL 
-       ["authorizationCode"]=> NULL 
-       ["last4"]=> string(4) "7093" 
-       ["expMonth"]=> string(2) "12" 
-       ["expYear"]=> string(2) "22" 
-       ["bin"]=> string(6) "506099" 
-       ["bankCode"]=> NULL 
-       ["bankName"]=> NULL 
-       ["reusable"]=> bool(false) 
-       ["countryCode"]=> NULL 
-       ["cardToken"]=> NULL  
+       ["cardType"]=> NULL
+       ["authorizationCode"]=> NULL
+       ["last4"]=> string(4) "7093"
+       ["expMonth"]=> string(2) "12"
+       ["expYear"]=> string(2) "22"
+       ["bin"]=> string(6) "506099"
+       ["bankCode"]=> NULL
+       ["bankName"]=> NULL
+       ["reusable"]=> bool(false)
+       ["countryCode"]=> NULL
+       ["cardToken"]=> NULL
     } 
-    ["accountDetails"]=> NULL 
-    ["accountPayments"]=> array(0) { } 
-    ["customer"]=> array(2) { 
-       ["email"]=> string(19) "ugorji757@gmail.com" 
-       ["name"]=> string(12) "Simon Okorie" 
-         
+    ["accountDetails"]=> NULL
+    ["accountPayments"]=> array(0) { }
+    ["customer"]=> array(2) {
+       ["email"]=> string(19) "ugorji757@gmail.com"
+       ["name"]=> string(12) "Simon Okorie"
     } 
     ["metaData"]=> array(0) { }
 
@@ -188,4 +187,4 @@ if($ref){
 ```
 Thank You!
 
-Need More clarification? Visit my blog post about this PHP class on [Medium]()
+Need More clarification? Visit my blog post about this PHP class on [Medium](https://simon-ugorji.medium.com/simple-php-class-for-integrating-monnify-payment-gateway-3a6b5653fa44)
